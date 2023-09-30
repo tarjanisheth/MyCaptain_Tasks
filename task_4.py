@@ -1,0 +1,10 @@
+e={8,0,6,2,4}
+n={2,4,1,3,5}
+x=e.union(n)
+print(x)
+y=e.intersection(n)
+print(y)
+z=e.difference(n)
+print(z)
+w=e.symmetric_difference(n)
+print(w)
